@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>LMStudio本地部署AI大模型</title>
+      <link href="/2024/05/12/LMStudio%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2AI%E5%A4%A7%E6%A8%A1%E5%9E%8B/"/>
+      <url>/2024/05/12/LMStudio%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2AI%E5%A4%A7%E6%A8%A1%E5%9E%8B/</url>
+      
+        <content type="html"><![CDATA[<h1 id="LM-Studio-本地部署AI大模型"><a href="#LM-Studio-本地部署AI大模型" class="headerlink" title="LM Studio 本地部署AI大模型"></a>LM Studio 本地部署AI大模型</h1><h2 id="为什么要部署本地AI大模型"><a href="#为什么要部署本地AI大模型" class="headerlink" title="为什么要部署本地AI大模型"></a>为什么要部署本地AI大模型</h2><blockquote><p>现在免费的大模型有很多，例如：阿里的通义千问、百度的文言一心。<br>其实这些都可以连网后直接免费使用，前提是连网后才能使用。<br>那么在某些只能使用内网，或者工作业务需要高度保密的情况下，本地部署AI大模型就能起到作用了。<br>而且还能根据自己习惯，搭建专属自己的大模型。</p></blockquote><h3 id="一、安装LM-Studio"><a href="#一、安装LM-Studio" class="headerlink" title="一、安装LM Studio"></a>一、安装LM Studio</h3><blockquote><p>根据自己电脑的操作系统下载对应的版本</p></blockquote><pre><code>https://lmstudio.ai/</code></pre><p><img src="/2024/05/12/LMStudio%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2AI%E5%A4%A7%E6%A8%A1%E5%9E%8B/p1.png"></p><h3 id="二、下载大模型"><a href="#二、下载大模型" class="headerlink" title="二、下载大模型"></a>二、下载大模型</h3><blockquote><p>根据个人需求，下载需要的大模型，这里以阿里的为例。因为是外网的，经常是下载失败的，可以在这个网址上直接下载<br><a href="https://huggingface.co/">https://huggingface.co/</a>，一定要下载.gguf 后缀的</p></blockquote><p><img src="/2024/05/12/LMStudio%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2AI%E5%A4%A7%E6%A8%A1%E5%9E%8B/p2.png"></p><h3 id="三、更改大模型下载地址"><a href="#三、更改大模型下载地址" class="headerlink" title="三、更改大模型下载地址"></a>三、更改大模型下载地址</h3><blockquote><p>改的地址没有按规定路径就会加载不出来，这时候要改一下安装路径，必须是在\models\Publisher\Repository 路径下</p></blockquote><p><img src="/2024/05/12/LMStudio%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2AI%E5%A4%A7%E6%A8%A1%E5%9E%8B/p3.png"></p><p><img src="/2024/05/12/LMStudio%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2AI%E5%A4%A7%E6%A8%A1%E5%9E%8B/p4.png"></p><p><img src="/2024/05/12/LMStudio%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2AI%E5%A4%A7%E6%A8%A1%E5%9E%8B/p5.png"></p><h3 id="四、使用"><a href="#四、使用" class="headerlink" title="四、使用"></a>四、使用</h3><blockquote><p>加载一下模型，就能开始使用了</p></blockquote><p><img src="/2024/05/12/LMStudio%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2AI%E5%A4%A7%E6%A8%A1%E5%9E%8B/p6.png"></p><h3 id="五、高级使用"><a href="#五、高级使用" class="headerlink" title="五、高级使用"></a>五、高级使用</h3><blockquote><p>可以启动服务部署，使用http 请求，使用大模型。<br>但是我觉得个人使用的话，有需要在打开使用已经够用了，所以高级用法没学 ^_^</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 知识 </category>
+          
+          <category> AI大模型 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> public </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Markdown常用语法汇总</title>
       <link href="/2024/05/12/Markdown%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95%E6%B1%87%E6%80%BB/"/>
       <url>/2024/05/12/Markdown%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95%E6%B1%87%E6%80%BB/</url>
